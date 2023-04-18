@@ -13,4 +13,4 @@ Finally, the script uses the az tool to update the resource's tags in Azure, usi
 In summary, this script is used to update resource tags in Azure with specific information and can be adapted for different usage scenarios.
 
 
-The bash script "get-azure-vm-list.sh"
+The bash script "get-azure-vm-list.sh" in this use case was used to generate a list of all VMs for a given Azure subscription.
