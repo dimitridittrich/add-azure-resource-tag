@@ -1,6 +1,6 @@
 # add-azure-resource-tag
 
-This bash script uses the Azure CLI (Azure Command Line Interface) to update resource tags in Azure.
+The bash script "az-resource-tags-update.sh" uses the Azure CLI (Azure Command Line Interface) to update resource tags in Azure.
 
 The script starts by reading the contents of a JSON file named az-tags-update-baseline.json into the VM_LIST variable. It then uses the jq tool to iterate through each line of the JSON file and extract specific information.
 
@@ -11,3 +11,6 @@ Then the script adds a tag called puppet.node_match with the value equal to the 
 Finally, the script uses the az tool to update the resource's tags in Azure, using the --operation Merge option to merge the existing tags with the new tags added by the script. The script also uses the --subscription option to define the Azure subscription that will be used to update the tags.
 
 In summary, this script is used to update resource tags in Azure with specific information and can be adapted for different usage scenarios.
+
+
+The bash script "get-azure-vm-list.sh"
