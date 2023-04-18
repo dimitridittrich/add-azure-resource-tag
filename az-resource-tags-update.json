@@ -1,0 +1,56 @@
+[
+  {
+    "ResourceGroup": "RGNAME-PROJECTID-DNS-CT-RG-PROJECTID-PRD-BRS-01",
+    "ResourceID": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/RGNAME-PROJECTID-DNS-CT-RG-PROJECTID-PRD-BRS-01/providers/Microsoft.Compute/virtualMachines/projectid-brs-prd-spoke-001-dns-0",
+    "SubscriptionID": "657d6bb6-a4f1-4cfc-9f28-fcb09d6ea7f9",
+    "SubscriptionName": "BUSINESSNAME-brewzones-corp-projectid",
+    "Tags": {
+      "business.application": "baseline_dns",
+      "business.iac": "true",
+      "business.impact": "critical",
+      "business.infrasupport": "business",
+      "business.projectid": "projectid_dns",
+      "business.source": "opex",
+      "business.sre-cellnumber": "",
+      "business.sre-email": "firstname.lastname@example.com.br",
+      "business.sre-name": "firstname-lastname",
+      "business.techlead-cellnumber": "",
+      "business.techlead-email": "example@example.com.br",
+      "business.techlead-name": "techleadname",
+      "business.techowner-cellnumber": "",
+      "business.techowner-email": "example@example.com.br",
+      "business.techowner-name": "name",
+      "business.tower": "projectid",
+      "business.tribe": "projectid",
+      "datadog": "monitored"
+    },
+    "VMName": "projectid-brs-prd-spoke-001-dns-0"
+  },
+  {
+    "ResourceGroup": "RGNAME-PROJECTID-DNS-CT-RG-PROJECTID-TG-BRS-01",
+    "ResourceID": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/RGNAME-PROJECTID-DNS-CT-RG-PROJECTID-TG-BRS-01/providers/Microsoft.Compute/virtualMachines/projectid-brs-stg-spoke-001-dns-1",
+    "SubscriptionID": "657d6bb6-a4f1-4cfc-9f28-fcb09d6ea7f9",
+    "SubscriptionName": "BUSINESSNAME-brewzones-corp-projectid",
+    "Tags": {
+      "business.application": "baseline_dns",
+      "business.iac": "true",
+      "business.impact": "critical",
+      "business.infrasupport": "business",
+      "business.projectid": "projectid_dns",
+      "business.source": "opex",
+      "business.sre-cellnumber": "",
+      "business.sre-email": "firstname.lastname@example.com.br",
+      "business.sre-name": "firstname-lastname",
+      "business.techlead-cellnumber": "",
+      "business.techlead-email": "example@example.com.br",
+      "business.techlead-name": "techleadname",
+      "business.techowner-cellnumber": "",
+      "business.techowner-email": "example@example.com.br",
+      "business.techowner-name": "name",
+      "business.tower": "projectid",
+      "business.tribe": "projectid",
+      "datadog": "monitored"
+    },
+    "VMName": "projectid-brs-stg-spoke-001-dns-1"
+  }
+]
